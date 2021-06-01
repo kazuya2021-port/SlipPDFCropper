@@ -1,0 +1,6 @@
+framework module Macro {
+  umbrella header "Macro.h"
+
+  export *
+  module * { export * }
+}

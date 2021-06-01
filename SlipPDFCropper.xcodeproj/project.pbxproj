@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82A2FEC52125349600F00F1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A2FEC42125349600F00F1A /* AppDelegate.m */; };
+		82A2FEC72125349600F00F1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82A2FEC62125349600F00F1A /* Assets.xcassets */; };
+		82A2FECA2125349600F00F1A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82A2FEC82125349600F00F1A /* MainMenu.xib */; };
+		82A2FECD2125349600F00F1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A2FECC2125349600F00F1A /* main.m */; };
+		82A2FED52125360A00F00F1A /* Macro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A2FED42125360A00F00F1A /* Macro.framework */; };
+		82A2FED62125360A00F00F1A /* Macro.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 82A2FED42125360A00F00F1A /* Macro.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		82A74A0221477D260078EBF4 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824A25D2214661DD001DCBBE /* Quartz.framework */; };
+		82A74AC92147AF8A0078EBF4 /* NSImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A74AC82147AF8A0078EBF4 /* NSImage+Rotate.m */; };
+		82ABEE3D2148C4540017DF4E /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82ABEE3C2148C4450017DF4E /* AppKit.framework */; };
+		82ABEE422148C7BE0017DF4E /* KZOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82ABEE412148C7BD0017DF4E /* KZOCR.framework */; };
+		82ABEE432148C7BE0017DF4E /* KZOCR.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 82ABEE412148C7BD0017DF4E /* KZOCR.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		82A2FED72125360A00F00F1A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				82ABEE432148C7BE0017DF4E /* KZOCR.framework in Embed Frameworks */,
+				82A2FED62125360A00F00F1A /* Macro.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		824A25D2214661DD001DCBBE /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Quartz.framework; sourceTree = DEVELOPER_DIR; };
+		82A2FEC02125349600F00F1A /* SlipPDFCropper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlipPDFCropper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82A2FEC32125349600F00F1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82A2FEC42125349600F00F1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82A2FEC62125349600F00F1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82A2FECB2125349600F00F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82A2FECC2125349600F00F1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82A2FECE2125349600F00F1A /* SlipPDFCropper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SlipPDFCropper.entitlements; sourceTree = "<group>"; };
+		82A2FED42125360A00F00F1A /* Macro.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Macro.framework; sourceTree = "<group>"; };
+		82A2FED82125369F00F00F1A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		82A74AC72147AF8A0078EBF4 /* NSImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+Rotate.h"; sourceTree = "<group>"; };
+		82A74AC82147AF8A0078EBF4 /* NSImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+Rotate.m"; sourceTree = "<group>"; };
+		82ABEE3C2148C4450017DF4E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
+		82ABEE412148C7BD0017DF4E /* KZOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZOCR.framework; sourceTree = "<group>"; };
+		82E31F8221425267000C6AA1 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		82E31F832142527A000C6AA1 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82A2FEBD2125349600F00F1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82ABEE422148C7BE0017DF4E /* KZOCR.framework in Frameworks */,
+				82A74A0221477D260078EBF4 /* Quartz.framework in Frameworks */,
+				82A2FED52125360A00F00F1A /* Macro.framework in Frameworks */,
+				82ABEE3D2148C4540017DF4E /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82698CF821420D9800923A8A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				82A2FEC62125349600F00F1A /* Assets.xcassets */,
+				82A2FEC82125349600F00F1A /* MainMenu.xib */,
+				82A2FECE2125349600F00F1A /* SlipPDFCropper.entitlements */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		82A2FEB72125349600F00F1A = {
+			isa = PBXGroup;
+			children = (
+				82ABEE412148C7BD0017DF4E /* KZOCR.framework */,
+				82698CF821420D9800923A8A /* Resources */,
+				82A2FEC22125349600F00F1A /* SlipPDFCropper */,
+				82A2FEC12125349600F00F1A /* Products */,
+				82CC63A1214205F400396857 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		82A2FEC12125349600F00F1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82A2FEC02125349600F00F1A /* SlipPDFCropper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82A2FEC22125349600F00F1A /* SlipPDFCropper */ = {
+			isa = PBXGroup;
+			children = (
+				82A74AC72147AF8A0078EBF4 /* NSImage+Rotate.h */,
+				82A74AC82147AF8A0078EBF4 /* NSImage+Rotate.m */,
+				82A2FECB2125349600F00F1A /* Info.plist */,
+				82A2FEC32125349600F00F1A /* AppDelegate.h */,
+				82A2FEC42125349600F00F1A /* AppDelegate.m */,
+				82A2FECC2125349600F00F1A /* main.m */,
+				82A2FED82125369F00F00F1A /* PrefixHeader.pch */,
+			);
+			path = SlipPDFCropper;
+			sourceTree = "<group>";
+		};
+		82CC63A1214205F400396857 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82ABEE3C2148C4450017DF4E /* AppKit.framework */,
+				824A25D2214661DD001DCBBE /* Quartz.framework */,
+				82A2FED42125360A00F00F1A /* Macro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82A2FEBF2125349600F00F1A /* SlipPDFCropper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82A2FED12125349600F00F1A /* Build configuration list for PBXNativeTarget "SlipPDFCropper" */;
+			buildPhases = (
+				82A2FEBC2125349600F00F1A /* Sources */,
+				82A2FEBD2125349600F00F1A /* Frameworks */,
+				82A2FEBE2125349600F00F1A /* Resources */,
+				82A2FED72125360A00F00F1A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlipPDFCropper;
+			productName = SlipPDFCropper;
+			productReference = 82A2FEC02125349600F00F1A /* SlipPDFCropper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82A2FEB82125349600F00F1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = uchiyama_Macmini;
+				TargetAttributes = {
+					82A2FEBF2125349600F00F1A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 82A2FEBB2125349600F00F1A /* Build configuration list for PBXProject "SlipPDFCropper" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ja,
+			);
+			mainGroup = 82A2FEB72125349600F00F1A;
+			productRefGroup = 82A2FEC12125349600F00F1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82A2FEBF2125349600F00F1A /* SlipPDFCropper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82A2FEBE2125349600F00F1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A2FEC72125349600F00F1A /* Assets.xcassets in Resources */,
+				82A2FECA2125349600F00F1A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82A2FEBC2125349600F00F1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A2FECD2125349600F00F1A /* main.m in Sources */,
+				82A2FEC52125349600F00F1A /* AppDelegate.m in Sources */,
+				82A74AC92147AF8A0078EBF4 /* NSImage+Rotate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82A2FEC82125349600F00F1A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82E31F8221425267000C6AA1 /* ja */,
+				82E31F832142527A000C6AA1 /* ja */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82A2FECF2125349600F00F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_CXX0X_EXTENSIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/uchiyama_macmini/Documents/SlipPDFCropper/SlipPDFCropper/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)MacOSX10.6.sdk";
+			};
+			name = Debug;
+		};
+		82A2FED02125349600F00F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_CXX0X_EXTENSIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/uchiyama_macmini/Documents/SlipPDFCropper/SlipPDFCropper/PrefixHeader.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)MacOSX10.6.sdk";
+			};
+			name = Release;
+		};
+		82A2FED22125349600F00F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 247S3F628J;
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = sourcecode.c.objc;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/uchiyama_macmini/Documents/SlipPDFCropper/SlipPDFCropper/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = SlipPDFCropper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks/ @executable_path/../Frameworks/ @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = me.kazuya.dev.SlipPDFCropper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		82A2FED32125349600F00F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 247S3F628J;
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = sourcecode.c.objc;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/uchiyama_macmini/Documents/SlipPDFCropper/SlipPDFCropper/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = SlipPDFCropper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks/ @executable_path/../Frameworks/ @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = me.kazuya.dev.SlipPDFCropper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82A2FEBB2125349600F00F1A /* Build configuration list for PBXProject "SlipPDFCropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82A2FECF2125349600F00F1A /* Debug */,
+				82A2FED02125349600F00F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82A2FED12125349600F00F1A /* Build configuration list for PBXNativeTarget "SlipPDFCropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82A2FED22125349600F00F1A /* Debug */,
+				82A2FED32125349600F00F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82A2FEB82125349600F00F1A /* Project object */;
+}
